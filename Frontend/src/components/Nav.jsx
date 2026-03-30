@@ -1,5 +1,5 @@
 "use client";
-import { User, Folder, Briefcase, Mail, Sun, Moon } from "lucide-react";
+import { User, Folder, Briefcase, Mail, Sun, Moon, Home } from "lucide-react";
 // import { useTheme } from "next-themes";
 
 const Nav = () => {
@@ -20,6 +20,12 @@ const Nav = () => {
 
           <div className="flex items-center gap-6">
             <a
+              href="/"
+              className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition"
+            >
+              Home
+            </a>
+            <a
               href="#about"
               className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition"
             >
@@ -35,7 +41,7 @@ const Nav = () => {
               href="#project"
               className="text-gray-700 dark:text-gray-300 hover:text-blue-600 transition"
             >
-              Projects
+              Project
             </a>
             <a
               href="#contact"
@@ -61,6 +67,13 @@ const Nav = () => {
 
       {/* Mobile Nav */}
       <div className="md:hidden fixed bottom-0 left-0 w-full bg-white dark:bg-gray-900 backdrop-blur-md border-t border-gray-200 dark:border-gray-700 flex justify-around items-center py-3 z-50">
+        <a
+          href="/"
+          className="flex flex-col items-center text-gray-600 dark:text-gray-300 hover:text-blue-600"
+        >
+          <Home size={22} />
+          <span className="text-xs">Home</span>
+        </a>
         <a
           href="#about"
           className="flex flex-col items-center text-gray-600 dark:text-gray-300 hover:text-blue-600"

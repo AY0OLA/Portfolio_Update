@@ -28,27 +28,25 @@ const services = [
       "Cross-browser Compatibility",
     ],
   },
-
   {
     title: "Backend Development",
     description:
-      "Bulding and maintaining server-side logic, APIs, databases and ensuring security, scalability and performance",
+      "Building and maintaining server-side logic, APIs, databases and ensuring security, scalability and performance.",
     icon: SiPython,
-    color: "#9ffc0a",
+    color: "#3776AB", // Python blue
     features: [
-      "Rest APIs",
+      "REST APIs",
       "Database Management",
-      "Server-side logic",
+      "Server-side Logic",
       "Security",
     ],
   },
-
   {
     title: "DevOps",
     description:
-      "Design and automate CI/CD pipeline for faster, reliable deployment and implement monitoring, logging, and alerting for system health.",
+      "Design and automate CI/CD pipelines for faster, reliable deployment and implement monitoring, logging, and alerting for system health.",
     icon: SiDocker,
-    color: "#F7DF1E",
+    color: "#2496ED", // Docker blue
     features: [
       "CI/CD Pipeline",
       "Security Integration",
@@ -73,8 +71,8 @@ const Services = () => {
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-50 to-white py-20"
     >
       {/* Background Elements */}
-      <div className="absolute top-0 left-0 w-96 h-96 bg-blue-100 rounded-full -translate-x-48 -translate-y-48"></div>
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-100 rounded-full translate-x-48 translate-y-48"></div>
+      <div className="hidden md:block absolute top-0 left-0 w-96 h-96 bg-blue-100 rounded-full -translate-x-48 -translate-y-48"></div>
+      <div className="hidden md:block absolute bottom-0 right-0 w-96 h-96 bg-purple-100 rounded-full translate-x-48 translate-y-48"></div>
 
       {/* Content */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6">
@@ -100,7 +98,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={service.title}
-              className="group bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
+              className="group relative bg-white rounded-2xl p-8 shadow-lg border border-gray-100 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
               data-aos="fade-up"
               data-aos-delay={100 * index}
             >
@@ -112,6 +110,7 @@ const Services = () => {
                 <service.icon
                   className="w-8 h-8"
                   style={{ color: service.color }}
+                  aria-label={service.title}
                 />
               </div>
 
@@ -131,7 +130,7 @@ const Services = () => {
                     key={featureIndex}
                     className="flex items-center text-sm text-gray-700"
                     data-aos="fade-right"
-                    data-aos-delay={100 * featureIndex}
+                    data-aos-delay={50 * featureIndex}
                   >
                     <div
                       className="w-2 h-2 rounded-full mr-3 flex-shrink-0"
