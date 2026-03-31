@@ -149,7 +149,7 @@ const Project = () => {
         description:
           "A three-step graphical authentication flow, where each level tests a different cognitive skill. For years we’ve accepted that authentication means remembering strings of text like uppercase here, a number there and a symbol which you’ll forget next week. But humans aren’t great at remembering random characters but on the other hand we’re far better at recognising images, recalling order, and remembering spatial interactions. So I decided to explore a different approach.",
         imageUrl: "./login.png",
-        tags: ["TypeScript", "Tailwind css", "Api"],
+        tags: ["TypeScript", "Tailwind css", "PostgreSQL", "Python"],
         githubLink: "https://github.com/AY0OLA/LoginPageFront",
         liveDemoLink: "https://login-page-front.vercel.app/",
       },
@@ -169,7 +169,7 @@ const Project = () => {
         description:
           "A website for a gym that all subcribers to track their progress",
         imageUrl: "./fitness.png",
-        tags: ["React.js", "Tailwindcss", "API"],
+        tags: ["React.js", "Tailwindcss"],
         githubLink: "https://github.com/AY0OLA/GYM",
         liveDemoLink: "https://gym-topaz-ten.vercel.app/",
       },
