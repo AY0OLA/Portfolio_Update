@@ -202,54 +202,57 @@ const Project = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50/30 to-purple-50/20 font-inter text-gray-900 w-full">
-      {/* Animated background elements */}
-      <div className="fixed inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-200/10 rounded-full blur-3xl"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-200/10 rounded-full blur-3xl"></div>
-      </div>
+    <section id="project">
+      {" "}
+      <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50/30 to-purple-50/20 font-inter text-gray-900 w-full">
+        {/* Animated background elements */}
+        <div className="fixed inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-200/10 rounded-full blur-3xl"></div>
+          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-200/10 rounded-full blur-3xl"></div>
+        </div>
 
-      <div className="relative z-10 w-full">
-        {/* Full-width header */}
-        <header className="w-full py-20 bg-gradient-to-r from-gray-50/80 to-blue-50/50 border-b border-gray-200/50">
-          <div className="w-full px-6 lg:px-12">
-            <h1 className="text-5xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-800 to-purple-700 bg-clip-text text-transparent text-center">
-              My Projects
-            </h1>
-            <p className="text-xl lg:text-2xl text-gray-600 max-w-6xl mx-auto leading-relaxed text-center">
-              Discover my journey through innovative web development projects.
-              Each creation represents unique challenges solved with modern
-              technologies and clean code.
-            </p>
-          </div>
-        </header>
-
-        <main className="w-full">
-          {currentProjects.length > 0 ? (
-            <div className="w-full">
-              {currentProjects.map((project) => (
-                <ProjectItem key={project.id} project={project} />
-              ))}
-            </div>
-          ) : (
-            <div className="w-full py-32 text-center bg-white">
-              <div className="text-6xl mb-4">🚧</div>
-              <p className="text-xl text-gray-600">
-                More amazing projects coming soon!
+        <div className="relative z-10 w-full">
+          {/* Full-width header */}
+          <header className="w-full py-20 bg-gradient-to-r from-gray-50/80 to-blue-50/50 border-b border-gray-200/50">
+            <div className="w-full px-6 lg:px-12">
+              <h1 className="text-5xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-800 to-purple-700 bg-clip-text text-transparent text-center">
+                My Projects
+              </h1>
+              <p className="text-xl lg:text-2xl text-gray-600 max-w-6xl mx-auto leading-relaxed text-center">
+                Discover my journey through innovative web development projects.
+                Each creation represents unique challenges solved with modern
+                technologies and clean code.
               </p>
             </div>
-          )}
+          </header>
 
-          {totalPages > 1 && (
-            <Pagination
-              currentPage={currentPage}
-              totalPages={totalPages}
-              onPageChange={handlePageChange}
-            />
-          )}
-        </main>
+          <main className="w-full">
+            {currentProjects.length > 0 ? (
+              <div className="w-full">
+                {currentProjects.map((project) => (
+                  <ProjectItem key={project.id} project={project} />
+                ))}
+              </div>
+            ) : (
+              <div className="w-full py-32 text-center bg-white">
+                <div className="text-6xl mb-4">🚧</div>
+                <p className="text-xl text-gray-600">
+                  More amazing projects coming soon!
+                </p>
+              </div>
+            )}
+
+            {totalPages > 1 && (
+              <Pagination
+                currentPage={currentPage}
+                totalPages={totalPages}
+                onPageChange={handlePageChange}
+              />
+            )}
+          </main>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -57,6 +57,13 @@ export default function Contact() {
       formRef.current?.reset();
     } catch (error) {
       console.error("EmailJS error:", error);
+      console.error("STATUS:", error?.status);
+      console.error("TEXT:", error?.text);
+      console.log({
+        publicKey,
+        serviceId,
+        templateId,
+      });
       setStatus("error");
     }
   };
@@ -90,7 +97,10 @@ export default function Contact() {
   ];
 
   return (
-    <section className="min-h-screen flex items-center justify-center py-20 bg-gray-50">
+    <section
+      id="contact"
+      className="min-h-screen flex items-center justify-center py-20 bg-gray-50"
+    >
       <div className="max-w-6xl w-full grid lg:grid-cols-2 gap-12 px-6">
         {/* LEFT SIDE */}
         <div data-aos="fade-right" className="space-y-8">
@@ -159,7 +169,7 @@ export default function Contact() {
 
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">
-              Email Address
+              Email Address *
             </label>
             <input
               type="email"
@@ -167,6 +177,7 @@ export default function Contact() {
               value={formData.user_email}
               onChange={handleChange}
               placeholder="your.email@example.com"
+              required
               className="w-full px-4 py-3 rounded-xl border border-gray-300 bg-gray-50 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"
             />
           </div>
