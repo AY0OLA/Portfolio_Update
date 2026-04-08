@@ -155,6 +155,16 @@ const Project = () => {
       },
       {
         id: "2",
+        name: "Sermon Live",
+        description:
+          "It an web page that was build to project what the pastor or preacher is saying at the paticular time, if the preach talks about a particular paragraph in the bible it project the verse out",
+        imageUrl: "./sermon.PNG",
+        tags: ["TypeScript", "Tailwind css", "PostgreSQL", "Python"],
+        githubLink: "https://github.com/AY0OLA/Live_projector",
+        liveDemoLink: "https://live-projector-one.vercel.app/",
+      },
+      {
+        id: "3",
         name: "MovieBox",
         description:
           "A website where you can search for movies, years and things concerning a particular film",
@@ -164,7 +174,7 @@ const Project = () => {
         liveDemoLink: "https://movieproject-beta.vercel.app/",
       },
       {
-        id: "3",
+        id: "4",
         name: "Fitness",
         description:
           "A website for a gym that all subcribers to track their progress",
@@ -174,7 +184,7 @@ const Project = () => {
         liveDemoLink: "https://gym-topaz-ten.vercel.app/",
       },
       {
-        id: "4",
+        id: "5",
         name: "D-Collection",
         description: "A website for collection brand.",
         imageUrl: "./d-collection.png",
