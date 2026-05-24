@@ -135,13 +135,13 @@ const About = () => {
             >
               Hi! I'm{" "}
               <span className="font-semibold text-blue-600">OKUNOWO DAVID</span>
-              , a Backend Developer based in Lagos who loves turning ideas into
-              smooth, scalable digital experiences. I’m all about clean code,
-              great design, and solving real problems. <br /> I started with
-              basic HTML/CSS and grew into building full-stack web apps with
-              powerful backends and sleek frontends. I care about the little
-              details, love creative challenges, and always aim to deliver work
-              that’s both smart and user-friendly.
+              , a Full-stack Developer based in Ibadan who loves turning ideas
+              into smooth, scalable digital experiences. I’m all about clean
+              code, great design, and solving real problems. <br /> I started
+              with basic HTML/CSS and grew into building full-stack web apps
+              with powerful backends and sleek frontends. I care about the
+              little details, love creative challenges, and always aim to
+              deliver work that’s both smart and user-friendly.
             </p>
 
             {/* CTA Buttons */}
@@ -151,7 +151,7 @@ const About = () => {
               data-aos-delay="500"
             >
               <a
-                href="/Okunowo David resume.pdf"
+                href="/Okunowo David.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 sm:py-4 sm:px-8 rounded-lg sm:rounded-xl shadow-lg transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-200 text-sm sm:text-base"
@@ -213,11 +213,6 @@ const About = () => {
                   src="./about.jpeg"
                   alt="Okunowo David"
                   className="rounded-xl sm:rounded-2xl object-cover w-full h-auto"
-                  onError={(e) => {
-                    e.currentTarget.onerror = null;
-                    e.currentTarget.src =
-                      "https://placehold.co/400x500/E2E8F0/475569?text=Ogwara+Precious+Alisha";
-                  }}
                 />
               </div>
 
@@ -226,7 +221,7 @@ const About = () => {
                 <div className="flex items-center gap-1 sm:gap-2">
                   <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-white rounded-full"></div>
                   <span className="font-semibold text-xs sm:text-sm">
-                    2+ Years Exp
+                    4+ Years Exp
                   </span>
                 </div>
               </div>
@@ -237,7 +232,6 @@ const About = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

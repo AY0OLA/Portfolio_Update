@@ -60,8 +60,8 @@ const technicalSkills = [
     id: "backend",
     title: "Backend Development",
     skills: [
-      { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
-      { name: "Express.js", icon: <SiExpress className="text-gray-400" /> },
+      // { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
+      // { name: "Express.js", icon: <SiExpress className="text-gray-400" /> },
       { name: "Python", icon: <SiPython className="text-yellow-500" /> },
       { name: "Django", icon: <SiDjango className="text-green-600" /> },
       { name: "FastAPI", icon: <FaTools className="text-cyan-400" /> },
@@ -71,7 +71,7 @@ const technicalSkills = [
     id: "databases",
     title: "Databases",
     skills: [
-      { name: "MongoDB", icon: <SiMongodb className="text-green-700" /> },
+      // { name: "MongoDB", icon: <SiMongodb className="text-green-700" /> },
       { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-600" /> },
     ],
   },
@@ -80,7 +80,7 @@ const technicalSkills = [
     title: "CMS & Tools",
     skills: [
       { name: "Git", icon: <FaGitAlt className="text-red-600" /> },
-      { name: "GitHub", icon: <SiGithub className="text-gray-200" /> },
+      { name: "GitHub", icon: <SiGithub className="text-gray-700" /> },
       { name: "VS Code", icon: <FaTools className="text-blue-300" /> },
       { name: "Postman", icon: <SiPostman className="text-orange-400" /> },
     ],
@@ -90,7 +90,7 @@ const technicalSkills = [
     title: "DevOps",
     skills: [
       { name: "Docker", icon: <SiDocker className="text-blue-400" /> },
-      { name: "GitHub Actions", icon: <SiGithub className="text-cyan-300" /> },
+      { name: "GitHub Actions", icon: <SiGithub className="text-gray-700" /> },
     ],
   },
 ];
