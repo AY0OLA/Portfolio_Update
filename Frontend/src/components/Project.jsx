@@ -145,54 +145,70 @@ const Project = () => {
     () => [
       {
         id: "1",
+        name: "OBI-TECH",
+        description:
+          "A modern e-commerce platform built with Next.js and Supabase that allows users to browse products, manage their cart, place orders, make secure payments through Paystack, and track their order status from purchase to delivery.",
+        imageUrl: "./obi_tech.png",
+        tags: ["TypeScript", "Tailwind CSS", "Paystack", "Next.js", "Supabase"],
+        githubLink: "https://github.com/AY0OLA/OBI_Tech",
+        liveDemoLink: "https://obi-tech.vercel.app/",
+      },
+
+      {
+        id: "2",
         name: "Login",
         description:
-          "A three-step graphical authentication flow, where each level tests a different cognitive skill. For years we’ve accepted that authentication means remembering strings of text like uppercase here, a number there and a symbol which you’ll forget next week. But humans aren’t great at remembering random characters but on the other hand we’re far better at recognising images, recalling order, and remembering spatial interactions. So I decided to explore a different approach.",
+          "A three-step graphical authentication system designed as an alternative to traditional password-based login. Instead of relying on complex text passwords, it uses image recognition, sequence memory, and spatial interactions to create a more intuitive and secure authentication experience.",
         imageUrl: "./login.png",
-        tags: ["TypeScript", "Tailwind css", "PostgreSQL", "Python"],
+        tags: ["TypeScript", "Tailwind CSS", "PostgreSQL", "Python"],
         githubLink: "https://github.com/AY0OLA/LoginPageFront",
         liveDemoLink: "https://login-page-front.vercel.app/",
       },
 
       {
-        id: "2",
+        id: "3",
         name: "MovieBox",
         description:
-          "A website where you can search for movies, years and things concerning a particular film",
+          "A movie discovery application that enables users to search for films, explore detailed information, browse release years, and learn more about their favorite movies through an intuitive interface.",
         imageUrl: "./moviebox.png",
-        tags: ["React.js", "CSS", "Api"],
+        tags: ["React.js", "CSS", "API"],
         githubLink: "https://github.com/AY0OLA/Movies",
         liveDemoLink: "https://movieproject-beta.vercel.app/",
       },
+
       {
-        id: "3",
+        id: "4",
         name: "Fitness",
         description:
-          "A website for a gym that all subcribers to track their progress",
+          "A fitness management platform for gyms that helps members monitor their workout progress, stay motivated, and keep track of their fitness journey through a clean and responsive interface.",
         imageUrl: "./fitness.png",
-        tags: ["React.js", "Tailwindcss"],
+        tags: ["React.js", "Tailwind CSS"],
         githubLink: "https://github.com/AY0OLA/GYM",
         liveDemoLink: "https://gym-topaz-ten.vercel.app/",
       },
+
       {
-        id: "4",
+        id: "5",
         name: "Sermon Live",
         description:
-          "It an web page that was build to project what the pastor or preacher is saying at the paticular time, if the preach talks about a particular paragraph in the bible it project the verse out",
+          "A live sermon projection application that displays Bible verses, passages, and supporting scripture in real time as a pastor or speaker references them during a sermon, helping congregations follow along seamlessly.",
         imageUrl: "./sermon.PNG",
-        tags: ["TypeScript", "Tailwind css", "PostgreSQL", "Python"],
+        tags: ["TypeScript", "Tailwind CSS", "PostgreSQL", "Python"],
         githubLink: "https://github.com/AY0OLA/Live_projector",
         liveDemoLink: "https://live-projector-one.vercel.app/",
       },
+
       {
-        id: "5",
+        id: "6",
         name: "D-Collection",
-        description: "A website for collection brand.",
+        description:
+          "A responsive fashion brand website designed to showcase products, strengthen brand identity, and provide customers with an engaging browsing experience across all devices.",
         imageUrl: "./d-collection.png",
-        tags: ["React.js", "Tailwindcss"],
+        tags: ["React.js", "Tailwind CSS"],
         githubLink: "https://github.com/AY0OLA/D-Collection",
         liveDemoLink: "https://dcollection.vercel.app/",
       },
+      ,
     ],
     [],
   );
