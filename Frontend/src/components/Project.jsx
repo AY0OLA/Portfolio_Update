@@ -148,7 +148,7 @@ const Project = () => {
         name: "OBI-TECH",
         description:
           "A modern e-commerce platform built with Next.js and Supabase that allows users to browse products, manage their cart, place orders, make secure payments through Paystack, and track their order status from purchase to delivery.",
-        imageUrl: "./obi_tech.png",
+        imageUrl: "./Obi_tech.png",
         tags: ["TypeScript", "Tailwind CSS", "Paystack", "Next.js", "Supabase"],
         githubLink: "https://github.com/AY0OLA/OBI_Tech",
         liveDemoLink: "https://obi-tech.vercel.app/",
