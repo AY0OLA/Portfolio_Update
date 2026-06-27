@@ -135,13 +135,13 @@ const About = () => {
             >
               Hi! I'm{" "}
               <span className="font-semibold text-blue-600">OKUNOWO DAVID</span>
-              , a Full-stack Developer based in Ibadan who loves turning ideas
-              into smooth, scalable digital experiences. I’m all about clean
-              code, great design, and solving real problems. <br /> I started
-              with basic HTML/CSS and grew into building full-stack web apps
-              with powerful backends and sleek frontends. I care about the
-              little details, love creative challenges, and always aim to
-              deliver work that’s both smart and user-friendly.
+              , a Software Engineer based in Ibadan who loves turning ideas into
+              smooth, scalable digital experiences. I’m all about clean code,
+              great design, and solving real problems. <br /> I started with
+              basic HTML/CSS and grew into building full-stack web apps with
+              powerful backends and sleek frontends. I care about the little
+              details, love creative challenges, and always aim to deliver work
+              that’s both smart and user-friendly.
             </p>
 
             {/* CTA Buttons */}

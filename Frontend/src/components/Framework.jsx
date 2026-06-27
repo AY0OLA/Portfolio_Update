@@ -25,6 +25,7 @@ import {
   SiPostman,
   SiDocker,
   SiGithub,
+  SiSupabase,
 } from "react-icons/si";
 import { TbBrandNextjs, TbBrandTypescript } from "react-icons/tb";
 
@@ -71,8 +72,12 @@ const technicalSkills = [
     id: "databases",
     title: "Databases",
     skills: [
-      // { name: "MongoDB", icon: <SiMongodb className="text-green-700" /> },
+      { name: "MongoDB", icon: <SiMongodb className="text-green-700" /> },
       { name: "PostgreSQL", icon: <SiPostgresql className="text-blue-600" /> },
+      {
+        name: "Supabase",
+        icon: <SiSupabase className="text-emerald-500" />,
+      },
     ],
   },
   {
