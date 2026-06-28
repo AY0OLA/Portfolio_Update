@@ -135,7 +135,7 @@ const About = () => {
             >
               Hi! I'm{" "}
               <span className="font-semibold text-blue-600">OKUNOWO DAVID</span>
-              , a Software Engineer based in Ibadan who loves turning ideas into
+              , a Software Engineer based in Nigeria who loves turning ideas into
               smooth, scalable digital experiences. I’m all about clean code,
               great design, and solving real problems. <br /> I started with
               basic HTML/CSS and grew into building full-stack web apps with
