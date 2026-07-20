@@ -145,17 +145,73 @@ const Project = () => {
     () => [
       {
         id: "1",
+        name: "Greenfield Academy",
+        description:
+          "The School Website Frontend is a modern, responsive, and user-centric web application that serves as the official digital presence of the school. It is designed to provide prospective students, parents, staff, alumni, and visitors with easy access to essential information, academic resources, admissions, news, events, and school services through an intuitive and visually engaging interface.",
+        imageUrl: "./school.png",
+        tags: [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "shadcn/ui",
+          "Radix UI",
+          "Framer Motion",
+          "React Hook Form",
+          "Zod",
+          "TanStack Query",
+          "Axios",
+          "NextAuth.js",
+        ],
+        githubLink: "https://github.com/AY0OLA/school-portal",
+        liveDemoLink: "https://school-portal-eta-ebon.vercel.app/",
+      },
+      {
+        id: "2",
+        name: "Greenfield Academy Admin Dashboard",
+        description:
+          "The Admin Portal is a secure, enterprise-grade web application designed to streamline the day-to-day operations of a modern educational institution. It provides administrators with a centralized platform to manage students, teachers, parents, academic records, examinations, attendance, finance, admissions, communications, and system settings through an intuitive and role-based interface.",
+        imageUrl: "./dashboard.png",
+        tags: [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS",
+          "shadcn/ui",
+          "Radix UI",
+          "Prisma ORM",
+          "PostgreSQL",
+          "NextAuth.js",
+          "React Hook Form",
+          "Zod",
+          "TanStack Query",
+          "TanStack Table",
+          "Recharts",
+          "Framer Motion",
+        ],
+        githubLink: "https://github.com/AY0OLA/school-portal",
+        liveDemoLink: "https://school-portal-eta-ebon.vercel.app/admin",
+      },
+      {
+        id: "3",
         name: "OBI-TECH",
         description:
           "A modern e-commerce platform built with Next.js and Supabase that allows users to browse products, manage their cart, place orders, make secure payments through Paystack, and track their order status from purchase to delivery.",
         imageUrl: "./Obi_tech.png",
-        tags: ["TypeScript", "Tailwind CSS", "Paystack", "Next.js", "Supabase"],
+        tags: [
+          "TypeScript",
+          "Tailwind CSS",
+          "zod",
+          "Paystack",
+          "Next.js",
+          "Supabase",
+        ],
         githubLink: "https://github.com/AY0OLA/OBI_Tech",
         liveDemoLink: "https://obi-tech.vercel.app/",
       },
 
       {
-        id: "2",
+        id: "4",
         name: "Login",
         description:
           "A three-step graphical authentication system designed as an alternative to traditional password-based login. Instead of relying on complex text passwords, it uses image recognition, sequence memory, and spatial interactions to create a more intuitive and secure authentication experience.",
@@ -166,7 +222,7 @@ const Project = () => {
       },
 
       {
-        id: "3",
+        id: "5",
         name: "MovieBox",
         description:
           "A movie discovery application that enables users to search for films, explore detailed information, browse release years, and learn more about their favorite movies through an intuitive interface.",
@@ -177,7 +233,7 @@ const Project = () => {
       },
 
       {
-        id: "4",
+        id: "6",
         name: "Fitness",
         description:
           "A fitness management platform for gyms that helps members monitor their workout progress, stay motivated, and keep track of their fitness journey through a clean and responsive interface.",
@@ -188,7 +244,7 @@ const Project = () => {
       },
 
       {
-        id: "5",
+        id: "7",
         name: "Sermon Live",
         description:
           "A live sermon projection application that displays Bible verses, passages, and supporting scripture in real time as a pastor or speaker references them during a sermon, helping congregations follow along seamlessly.",
@@ -199,7 +255,7 @@ const Project = () => {
       },
 
       {
-        id: "6",
+        id: "8",
         name: "D-Collection",
         description:
           "A responsive fashion brand website designed to showcase products, strengthen brand identity, and provide customers with an engaging browsing experience across all devices.",
